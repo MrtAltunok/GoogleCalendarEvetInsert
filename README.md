@@ -1,5 +1,5 @@
 # GoogleCalendarEvetInsert
-Çalışmada Google Calendar üzerine api olmadan url yardımı ile Event (etkinlik) ekleme işlemi gerçekleştiriyoruz.
+Çalışmada Google Calendar (takvim) üzerine api olmadan url yardımı ile Event (etkinlik) ekleme işlemi gerçekleştiriyoruz.
 <br/>
 1.Verilen başlangıç tarihini istenilen formata çeviriyoruz.
 <br/>
