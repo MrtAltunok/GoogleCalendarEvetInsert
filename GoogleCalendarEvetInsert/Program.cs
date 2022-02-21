@@ -20,8 +20,8 @@ namespace GoogleCalendarEvetInsert
         {
             
             string tarih = DateTime.Parse(dates.AddDays(2).ToLongDateString()).ToString(DatesFormat);
-            string starttime = DateTime.Parse(dates.ToLongTimeString()).ToString(TimeFormat);
-            string stoptime = DateTime.Parse(dates.AddHours(1).ToLongTimeString()).ToString(TimeFormat);
+            string starttime = DateTime.Parse(_starttime.ToLongTimeString()).ToString(TimeFormat);
+            string stoptime = DateTime.Parse(_stopTime.AddHours(1).ToLongTimeString()).ToString(TimeFormat);
 
             string _title = title.Replace(" ","+");
             string _details = details.Replace(" ","+").Replace("\n","<br/>");//Boşlukları + ile değiştiriyoruz ayrıca eğer yeni bir satır var ise onuda aşağı alıyoruz
